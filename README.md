@@ -11,6 +11,7 @@
 - 3、第一章中关于YUV的概念介绍中说 :“YUV：也被称作 YCrCb”
 这里，应该是YCbCr，而不是YCrCb，而且YUV和 YCbCr是两个不同的概念。引用自维基百科的解释
 YUV是编译true-color颜色空间（color space）的种类，Y'UV, YUV, YCbCr，YPbPr等专有名词都可以称为YUV，彼此有重叠。“Y”表示明亮度（Luminance、Luma），“U”和“V”则是色度、浓度（Chrominance、Chroma）
+- 4、Page-23处libmedia.so库源文件的目录不是frameworks/base/media/libmedia，而是在frameworks/av/media/libmedia
 
 License
 --------
