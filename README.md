@@ -17,6 +17,8 @@
 YUV是编译true-color颜色空间（color space）的种类，Y'UV, YUV, YCbCr，YPbPr等专有名词都可以称为YUV，彼此有重叠。“Y”表示明亮度（Luminance、Luma），“U”和“V”则是色度、浓度（Chrominance、Chroma）
 - 4、Page-23处libmedia.so库源文件的目录不是frameworks/base/media/libmedia，而是在frameworks/av/media/libmedia
 - 5、Page-15，得到软引用对象，应为“得到弱引用对象”
+- 6、Page-210 metadata，应为“元数据”
+- 7、Page-212 priv_data_size，应为“某种格式文件的数据大小”
 
 License
 --------
