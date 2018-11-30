@@ -12,7 +12,7 @@
 
 - 1、Page-3，Line-8，错误类型--错别字，AudioTrack 写成 "AudiTrack";
 - 2、Page-6，错误类型--描述错误，关于PCM的采样率和比特率换算，常见的比特率并没有44.1Hz，而是44.1KHz，即使是44.1Hz，16位的精度，换算的比特率也不是4410016kb/s的结果;
-- 3、第一章中关于YUV的概念介绍中说 :“YUV：也被称作 YCbCr”, 应为“YCrCb”, 第一版是对的，从FFmpeg源码发现YUV就是YCrCb.在YUV 家族中，YCbCr 是在计算机系统中应用最多的成员，其应用领域很广泛，JPEG、MPEG均采用此格式。一般人们所讲的YUV大多是指YCbCr。
+- 3、第一章中关于YUV的概念介绍中说 :“YUV：也被称作 YCbCr”, 应为“YCrCb”, 第一版是对的，从FFmpeg源码发现YUV对应YCrCb（位于h264_ps.c文件中)）. 但是在YUV家族中，YCbCr是在计算机系统中应用最多的成员，其应用领域很广泛，JPEG、MPEG均采用此格式。一般人们所讲的YUV大多是指YCbCr。所以这里，我认为也可以理解YUV是YCrCb。所以不钻牛角尖，这里理解和知道就行。
 - 4、Page-23处libmedia.so库源文件的目录不是frameworks/base/media/libmedia，而是在frameworks/av/media/libmedia
 - 5、Page-15，得到软引用对象，应为“得到弱引用对象”
 - 6、Page-210 metadata，应为“元数据”
