@@ -26,6 +26,7 @@ NV12
 - 5、Page-15，得到软引用对象，应为“得到弱引用对象”
 - 6、Page-210 metadata，应为“元数据”
 - 7、Page-212 priv_data_size，应为“某种格式文件的数据大小”
+- 8、Page-198 第一个命令写成前面一节降噪命令了，争取画中画命令应为“ffmpeg -i input1 -i input2 -filter_complex overlay=x:y output”
 
 License
 --------
