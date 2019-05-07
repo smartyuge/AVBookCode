@@ -31,7 +31,7 @@ NV12
 - 10、Page-47 接下来看看interface_cast是什么，其处于frameworks/base/include/binder/IInterface.h中，应为“接下来看看interface_cast是什么，其处于frameworks/native/include/binder/IInterface.h中”
 - 11、Page-48 其处于frameworks/base/include/binder/IServiceManager.h中，应为“接下来看看interface_cast是什么，其处于frameworks/native/include/binder/IServiceManager.h中”
 - 12、Page-49 开始添加服务内部，在frameworks/base/media/libmediaplayerservice/MediaPlayerService.cpp中，应为“开始添加服务内部，在frameworks/av/media/libmediaplayerservice/MediaPlayerService.cpp中”
-- 13、Page-52 其处于frameworks/base/libs/binder/IserviceManager.cpp中，应为“ 其处于fframeworks/native/libs/binder/IserviceManager.cpp中”
+- 13、Page-52 其处于frameworks/base/libs/binder/IserviceManager.cpp中，应为“ 其处于fframeworks/native/libs/binder/IServiceManager.cpp中”
 - 14、Page-53 继续在BpBinder中寻找实现代码，其处于frameworks/base/libs/binder/BpBinder.cpp中，应为“继续在BpBinder中寻找实现代码，其处于frameworks/native/libs/binder/BpBinder.cpp中”
 
 License
