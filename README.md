@@ -27,6 +27,12 @@ NV12
 - 6、Page-210 metadata，应为“元数据”
 - 7、Page-212 priv_data_size，应为“某种格式文件的数据大小”
 - 8、Page-198 第一个命令写成前面一节降噪命令了，争取画中画命令应为“ffmpeg -i input1 -i input2 -filter_complex overlay=x:y output”
+- 9、Page-46 首先找到入口，在frameworks/base/media/mediaserver/main_mediaserver.cpp中，应为“首先找到入口，在frameworks/av/media/mediaserver/main_mediaserver.cpp中”
+- 10、Page-47 接下来看看interface_cast是什么，其处于frameworks/base/include/binder/IInterface.h中，应为“接下来看看interface_cast是什么，其处于frameworks/native/include/binder/IInterface.h中”
+- 11、Page-48 其处于frameworks/base/include/binder/IServiceManager.h中，应为“接下来看看interface_cast是什么，其处于frameworks/native/include/binder/IServiceManager.h中”
+- 12、Page-49 开始添加服务内部，在frameworks/base/media/libmediaplayerservice/MediaPlayerService.cpp中，应为“开始添加服务内部，在frameworks/av/media/libmediaplayerservice/MediaPlayerService.cpp中”
+- 13、Page-52 其处于frameworks/base/libs/binder/IserviceManager.cpp中，应为“ 其处于fframeworks/native/libs/binder/IserviceManager.cpp中”
+- 14、Page-53 继续在BpBinder中寻找实现代码，其处于frameworks/base/libs/binder/BpBinder.cpp中，应为“继续在BpBinder中寻找实现代码，其处于frameworks/native/libs/binder/BpBinder.cpp中”
 
 License
 --------
