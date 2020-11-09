@@ -2,11 +2,11 @@
 
 ### 源码
 
-链接: https://pan.baidu.com/s/1tDJvyR4-_qyUEmxWiloUGg 提取码: uips
+链接: https://pan.baidu.com/s/1eOIiKz9YNV0_pDxpRoOftg  提取码: c216
 
 ### 码流分析工具
 
-链接: https://pan.baidu.com/s/1mHKh_qoaMM4BbmRJq6YaZA 提取码: n69i
+链接: https://pan.baidu.com/s/11kMVuoSpX11BDmoS7R3LBA  提取码: t8dt
 
 ### 勘误列表
 
@@ -33,6 +33,7 @@ NV12
 - 12、Page-49 开始添加服务内部，在frameworks/base/media/libmediaplayerservice/MediaPlayerService.cpp中，应为“开始添加服务内部，在frameworks/av/media/libmediaplayerservice/MediaPlayerService.cpp中”
 - 13、Page-52 其处于frameworks/base/libs/binder/IserviceManager.cpp中，应为“ 其处于frameworks/native/libs/binder/IServiceManager.cpp中”
 - 14、Page-53 继续在BpBinder中寻找实现代码，其处于frameworks/base/libs/binder/BpBinder.cpp中，应为“继续在BpBinder中寻找实现代码，其处于frameworks/native/libs/binder/BpBinder.cpp中”
+- 15、Page-115 有一句翻译”平滑视频帧率>=10fps“，应该是“让视频流畅输出，使之帧率大于等于10FPS”
 
 License
 --------
